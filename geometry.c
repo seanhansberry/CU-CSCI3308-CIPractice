@@ -86,5 +86,5 @@ bool coord_2d_area_triangle(const coord_2d_t* a, const coord_2d_t* b, const coor
     }
 
 //return sqrt(((coord_2d_dist(a,b) + coord_2d_dist(b,c) + coord_2d_dist(c,a))/2) * (((coord_2d_dist(a,b) + coord_2d_dist(b,c) + coord_2d_dist(c,a))/2)-coord_2d_dist(a,b)) * (((coord_2d_dist(a,b) + coord_2d_dist(b,c) + coord_2d_dist(c,a))/2)-coord_2d_dist(b,c)) * (((coord_2d_dist(a,b) + coord_2d_dist(b,c) + coord_2d_dist(c,a))/2)-coord_2d_dist(c,a)))
-return true
+return true;
 }
